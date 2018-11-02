@@ -45,3 +45,44 @@ nav a:hover {
 .main-site {
     font-weight: bold;
 }
+
+/* Main image */
+
+.main-img {
+    height: 450px;
+    background: url(../images/dewang-gupta-272186-unsplash.jpg) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.main-text h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.main-text h2 {
+    width: 70%;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 30px auto;
+}
+
+.main-text button {
+    background-color: #9ac051;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+.main-text button:hover {
+    background-color: #647e32;
+}
