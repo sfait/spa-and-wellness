@@ -125,3 +125,67 @@ nav a:hover {
 .image img {
     border-radius: 5px;
 }
+
+/* Section offer */
+
+.offer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+.offer figure {
+    width: 300px;
+    background-color: #fcfbfb;
+    border: .5px solid #f2f2f2;
+    margin: 50px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer h4 {
+    margin: 20px 0 0 0;
+    color: #9ac051;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.offer p {
+    margin: 15px 0 20px 0;
+    padding: 0 20px;
+    color: #444;
+    text-align: center;
+}
+
+.offer .circle-img {
+    margin: 20px 0 0 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.offer .skin-therapy {
+    background: url(../images/love-romantic-bath-candlelight.jpg) no-repeat bottom/cover;
+}
+
+.offer .face-therapy {
+    background: url(../images/pexels-photo-725998.jpeg) no-repeat bottom/cover;
+}
+
+.offer .body-therapy {
+    background: url(../images/pexels-photo-259810.jpeg) no-repeat center/cover;
+
+}
+
+.offer .read-more-less-btn {
+    background-color: #9ac051;
+    color: #fff;
+    font-size: 10px;
+    margin: 0 0 30px 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
