@@ -225,15 +225,65 @@ nav a:hover {
 
 .newsletter-form input, .newsletter-form button {
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
 }
 
+/* Section slider-container */
 
-
-
-/* Section gallery */
-.gallery {
-    height: 300px;
+.slider-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.previous-arrow, .next-arrow {
+    color: #f2f2f2;
+    padding: 30px;
+}
+
+.previous-arrow:hover, .next-arrow:hover {
+    color: #9ac051;
+    cursor: pointer;
+}
+
+.slider-container i {
+    font-size: 25px;
+}
+
+.slider img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+.slider-stage {
+    width: 500px;;
+}
+
+.slider {
+    list-style: none;
+    width: 500px;
+    padding: 0;
+    display: flex;
+    overflow-x: hidden;
+}
+
+/* Section go-up */
+
+.go-up {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-up i {
+    font-size: 25px;
+    color: rgb(180, 165, 165);
+    cursor: pointer;
+}
+
+.go-up i:hover {
+    color: #9ac051;
+}
