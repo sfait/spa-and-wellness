@@ -189,3 +189,51 @@ nav a:hover {
     border: none;
 }
 
+/* Section newsletter */
+
+.newsletter {
+    height: 200px;
+    background-color: #9ac051;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter h5 {
+    text-transform: uppercase;
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-form input {
+    margin-right: 20px;
+    width: 250px;
+}
+
+.newsletter-form button {
+    background-color: #647e32;
+    color: #fff;
+
+}
+
+.newsletter-form input, .newsletter-form button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+
+/* Section gallery */
+.gallery {
+    height: 300px;
+}
+
