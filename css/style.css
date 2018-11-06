@@ -297,7 +297,7 @@ footer {
 }
 
 footer section {
-    width: 200px;
+    width: 30%;
 }
 
 .about-us {
@@ -340,5 +340,27 @@ footer section {
     text-decoration: none;
 }
 
+.contact-details {
+    margin: 0 50px;
+}
+
+.contact-details ul {
+    list-style: none;
+}
+
+.contact-details li {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.contact-details i {
+    color: #9ac051;
+    margin-right: 10px;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: #fff;
+}
 
 
