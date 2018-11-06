@@ -363,4 +363,56 @@ footer section {
     color: #fff;
 }
 
+.quick-links {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick-links ul {
+    list-style: none;
+    width: 190px;
+    margin: 0 10px;
+}
+
+.quick-links li {
+    border-bottom: .5px solid #666464;
+    padding: 10px 10px 10px 0;
+}
+
+.quick-links li:first-child {
+    padding-top: 0;
+}
+
+.quick-links li:last-child {
+    border: none;
+}
+
+.quick-links i {
+    margin-right: 10px;
+    color: #9ac051;
+    font-size: 6px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Section copyright */
+
+.copyright {
+    height: 50px;
+    background-color: #9ac051;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+}
 
