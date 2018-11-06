@@ -287,3 +287,58 @@ nav a:hover {
 .go-up i:hover {
     color: #9ac051;
 }
+
+/* Footer */
+footer {
+    display: flex;
+    background-color: #444;
+    color: #fff;
+    padding: 60px 100px;
+}
+
+footer section {
+    width: 200px;
+}
+
+.about-us {
+    font-weight: 200;
+    margin: 0 0 10px 0;
+}
+
+.about-us h5 {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.about-us p {
+    line-height: 2;
+    margin: 10px 0;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-media li {
+    background-color: #9ac051;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
