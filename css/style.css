@@ -180,17 +180,20 @@ nav a:hover {
 }
 
 .offer h4 {
-    margin: 20px 0 0 0;
+    margin: 20px 0;
     color: #9ac051;
     text-transform: uppercase;
     font-weight: 400;
 }
 
 .offer p {
-    margin: 15px 0 20px 0;
     padding: 0 20px;
     color: #444;
     text-align: center;
+}
+
+.additional-paragraph {
+    display: none;
 }
 
 .offer .circle-img {
@@ -217,7 +220,7 @@ nav a:hover {
     background-color: #9ac051;
     color: #fff;
     font-size: 10px;
-    margin: 0 0 30px 0;
+    margin: 30px 0;
     padding: 5px 15px;
     border-radius: 5px;
     border: none;
