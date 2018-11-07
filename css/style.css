@@ -47,6 +47,15 @@ nav a:hover {
     font-weight: bold;
 }
 
+.menu-trigger-el {
+    color: #fff;
+}
+
+.menu-trigger-el span:hover {
+    border-bottom: 1px solid #9ac051;
+    cursor: pointer;
+}
+
 .nested-menu {
     list-style: none;
     background-color: #fff;
@@ -54,6 +63,7 @@ nav a:hover {
     position: absolute;
     top: 40px;
     font-size: 10px;
+    display: none;
 }
 
 .nested-menu li {
