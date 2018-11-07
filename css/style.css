@@ -257,13 +257,19 @@ nav a:hover {
 .newsletter-form button {
     background-color: #647e32;
     color: #fff;
-
 }
 
 .newsletter-form input, .newsletter-form button {
     border: none;
     border-radius: 10px;
     padding: 10px;
+}
+
+.form-info {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    display: none;
 }
 
 /* Section slider-container */
