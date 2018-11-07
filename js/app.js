@@ -89,6 +89,22 @@ const init = () => {
     next.addEventListener("click", slideToNext);
     // automatyczne przechodzenie obrazów
     setInterval(slideToNext, 10000);
+
+    // go-up button
+
+    const goUpBtn = document.querySelector(".go-up");
+
+    goUpBtn.addEventListener("click", function(){
+        // przesunięcie widoku w górę
+        // window.scroll(0, 0);
+
+        // powolne przesunięcie widoku w górę
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        });
+    });
 }
 
 document.addEventListener("DOMContentLoaded", init);
