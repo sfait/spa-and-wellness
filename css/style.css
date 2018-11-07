@@ -19,6 +19,7 @@ header {
 }
 
 nav {
+    height: 40px;
     text-transform: uppercase;
     border: 0;
 }
@@ -44,6 +45,29 @@ nav a:hover {
 
 .main-site {
     font-weight: bold;
+}
+
+.nested-menu {
+    list-style: none;
+    background-color: #fff;
+    text-transform: none;
+    position: absolute;
+    top: 40px;
+    font-size: 10px;
+}
+
+.nested-menu li {
+    border: none;
+    cursor: pointer;
+}
+
+.nested-menu a {
+    color: #444;
+}
+
+.nested-menu li:hover, .nested-menu a:hover {
+    color: #fff;
+    background-color: #9ac051;
 }
 
 /* Main image */
